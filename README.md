@@ -1,5 +1,5 @@
 <!-- ══════════════════════════════════════════════════════════════
-     HEADER — animated wave + typing effect
+     HEADER
 ══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -30,6 +30,7 @@
 <img src="https://komarev.com/ghpvc/?username=Batsuren02&label=Profile%20views&color=1F6FEB&style=flat-square" alt="views" />
 <img src="https://img.shields.io/github/followers/Batsuren02?label=Followers&style=flat-square&color=1F6FEB&labelColor=0D1117" alt="followers" />
 <img src="https://img.shields.io/badge/Based%20in-Mongolia%20%F0%9F%87%B2%F0%9F%87%B3-1F6FEB?style=flat-square&labelColor=0D1117" alt="location" />
+<img src="https://img.shields.io/badge/Open%20to-Collaboration-238636?style=flat-square&labelColor=0D1117" alt="open to work" />
 
 </div>
 
@@ -44,43 +45,29 @@
 ```csharp
 public class Batsuren : SoftwareEngineer
 {
-    public string Location   => "Ulaanbaatar, Mongolia 🇲🇳";
-    public string Role       => "Full-Stack Engineer";
+    public string Location    => "Ulaanbaatar, Mongolia 🇲🇳";
+    public string Role        => "Full-Stack Engineer";
 
-    public string[] Focus    => new[]
+    public string[] Domains   => new[]
     {
-        "Flutter mobile apps",
-        "Odoo ERP & enterprise workflows",
-        ".NET / Django backends",
+        "Enterprise ERP & business automation",
+        "Financial systems and complex workflows",
+        "Cross-platform mobile applications",
         "LLM-powered products & AI agents"
     };
 
-    public string[] Learning => new[] { "Cloud", "DevOps", "System Architecture" };
+    public string[] Learning  => new[] { "Cloud", "DevOps", "System Architecture" };
 
-    public string Philosophy => "Ship it, measure it, refactor it.";
+    public string Philosophy  => "Ship it, measure it, refactor it.";
 }
 ```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Би бизнесийн бодит асуудлыг шийддэг систем бүтээхэд төвлөрдөг — mobile client-ээс backend, database загвар, deployment хүртэлх бүх давхаргад ажилладаг. Ажлын ихэнх хэсэг нь захиалагчийн private repository дотор байдаг тул энд харагдах нийтийн үйл ажиллагаа бодит ачааллыг бүрэн тусгадаггүй.
 
-**🎯 Одоо юу хийж байна**
-- Enterprise түвшний loan management platform хөгжүүлж байна
-- Flutter дээр production mobile app-уудыг release хийж байна
-- Odoo ERP модулиудыг захиалгаар бүтээж байна
-
-</td>
-<td width="50%" valign="top">
-
-**🌱 Одоо юу сурч байна**
-- Cloud infrastructure болон CI/CD pipeline
-- Distributed system design, scaling patterns
-- LLM application, RAG, AI agent architecture
-
-</td>
-</tr>
-</table>
+**Юунд сайн вэ:**
+- Олон роль, зөвшөөрлийн түвшинтэй, өгөгдлийн бүрэн бүтэн байдал чухал enterprise систем
+- Хуучин legacy код болон гуравдагч талын API-тай integration хийх
+- Санаанаас production хүртэлх бүтэн зам — architecture, хэрэгжүүлэлт, deploy, дэмжлэг
 
 <!-- ══════════════════════════════════════════════════════════════
      TECH STACK
@@ -124,67 +111,53 @@ public class Batsuren : SoftwareEngineer
 </details>
 
 <!-- ══════════════════════════════════════════════════════════════
-     PROJECTS
+     HOW I WORK
 ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> &nbsp;Featured Projects
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> &nbsp;How I Work
 
-<div align="center">
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 📱 MobiApp
-> Flutter дээр бүтээсэн cross-platform mobile application. Riverpod state management, offline-first өгөгдлийн давхарга, REST API integration.
-
-`Flutter` `Dart` `Riverpod` `REST API`
-
-<a href="https://github.com/Batsuren02?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20Repo-1F6FEB?style=flat-square&logo=github&logoColor=white" />
-</a>
+### 🧱 Architecture first
+Код бичихээс өмнө өгөгдлийн загвар, хил хязгаарыг тодорхойлно. Дараа нь өөрчлөх зардал хамаагүй хямд болдог.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🏦 Loan Management Platform
-> Санхүүгийн байгууллагад зориулсан enterprise систем. ERP маягийн workflow, зээлийн эргэн төлөлтийн тооцоолол, role-based access control.
+### 🔁 Ship small, ship often
+Том release-ийг хэсэгчлэн задалж, богино циклээр гаргана. Feedback хурдан ирэх тусам алдаа хямд.
 
-`.NET` `PostgreSQL` `React` `Docker`
+</td>
+<td width="33%" valign="top">
 
-<a href="https://github.com/Batsuren02?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20Repo-1F6FEB?style=flat-square&logo=github&logoColor=white" />
-</a>
+### 📉 Boring tech wins
+Шинэ технологи гоё, харин production-д тогтвортой, баримтжуулалт сайтай хэрэгсэл л ялдаг.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🤖 AI Engineering Lab
-> LLM, automation, AI agent-уудтай хийсэн туршилтуудын цуглуулга. Prompt engineering, RAG pipeline, tool calling.
-
-`Python` `LangChain` `LLM` `RAG`
-
-<a href="https://github.com/Batsuren02?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20Repo-1F6FEB?style=flat-square&logo=github&logoColor=white" />
-</a>
+### 🧪 Test where it hurts
+100% coverage биш — мөнгө, зөвшөөрөл, өгөгдлийн бүрэн бүтэн байдалд хамаатай logic-ийг л чанга хамгаална.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🏢 Odoo ERP Modules
-> Бизнесийн процесст тохируулсан custom Odoo модулиуд. Нягтлан бодох бүртгэл, агуулах, борлуулалтын automation.
+### 📝 Docs are code
+README, ADR, API баримт байхгүй бол систем зөвхөн бичсэн хүнд л ажилладаг. Тэр нь эрсдэл.
 
-`Odoo` `Python` `XML` `PostgreSQL`
+</td>
+<td width="33%" valign="top">
 
-<a href="https://github.com/Batsuren02?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20Repo-1F6FEB?style=flat-square&logo=github&logoColor=white" />
-</a>
+### 👀 Observability
+Log, metric, alert байхгүй систем бол харанхуйд ажиллаж байгаатай адил. Эхнээс нь суулгана.
 
 </td>
 </tr>
 </table>
-</div>
 
 <!-- ══════════════════════════════════════════════════════════════
      GITHUB ANALYTICS
@@ -194,7 +167,7 @@ public class Batsuren : SoftwareEngineer
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Batsuren02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Batsuren02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" />
 <img width="49%" src="https://streak-stats.demolab.com?user=Batsuren02&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" />
 
 <br/><br/>
@@ -206,10 +179,14 @@ public class Batsuren : SoftwareEngineer
 
 <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Batsuren02&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 
+<br/>
+
+<sub>ℹ️ Ажлын ихэнх repository private тул эдгээр тоо нийт хувь нэмрийн зөвхөн нэг хэсгийг харуулж байна.</sub>
+
 </div>
 
 <!-- ══════════════════════════════════════════════════════════════
-     CONTRIBUTION SNAKE (requires GitHub Action — see snake.yml)
+     CONTRIBUTION SNAKE (requires .github/workflows/snake.yml)
 ══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -228,7 +205,7 @@ public class Batsuren : SoftwareEngineer
      ROADMAP
 ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;Current Roadmap
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;Engineering Roadmap
 
 ```mermaid
 graph LR
@@ -250,11 +227,14 @@ graph LR
 
 <br/>
 
-- [ ] AWS эсвэл Azure-ийн cloud certification авах
-- [ ] Kubernetes дээр production workload deploy хийх
-- [ ] Open source төсөлд тогтмол contribution хийх
-- [ ] AI agent-д суурилсан SaaS product launch хийх
-- [ ] System design болон scalability талаар техникийн блог бичих
+| Зорилт | Чиглэл | Төлөв |
+|---|---|:---:|
+| Cloud certification (AWS / Azure) | Infrastructure | 🟡 явцад |
+| Kubernetes дээр production workload deploy | DevOps | 🟡 явцад |
+| CI/CD pipeline-ийг бүрэн автоматжуулах | DevOps | 🟢 хийгдсэн |
+| AI agent-д суурилсан product launch | AI | 🔴 эхлээгүй |
+| System design сэдвээр техникийн блог | Writing | 🔴 эхлээгүй |
+| Open source-д тогтмол contribution | Community | 🟡 явцад |
 
 </details>
 
