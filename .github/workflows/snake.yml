@@ -1,13 +1,12 @@
 ########################################################################
-#  Байрлуулах зам:  .github/workflows/snake.yml
-#  (Batsuren02/Batsuren02 гэсэн profile repo дотор)
+#  Path:  .github/workflows/snake.yml
+#  Repo:  Batsuren02/Batsuren02
 ########################################################################
 
 name: Generate Snake Animation
 
 on:
   schedule:
-    # 12 цаг тутам автоматаар шинэчилнэ
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -28,7 +27,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
