@@ -18,11 +18,8 @@
 <a href="https://github.com/Batsuren02">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="mailto:your.email@example.com">
+<a href="mailto:batsurenbataa665@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://linkedin.com/in/your-handle">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <br/><br/>
@@ -30,7 +27,7 @@
 <img src="https://komarev.com/ghpvc/?username=Batsuren02&label=Profile%20views&color=1F6FEB&style=flat-square" alt="views" />
 <img src="https://img.shields.io/github/followers/Batsuren02?label=Followers&style=flat-square&color=1F6FEB&labelColor=0D1117" alt="followers" />
 <img src="https://img.shields.io/badge/Based%20in-Mongolia%20%F0%9F%87%B2%F0%9F%87%B3-1F6FEB?style=flat-square&labelColor=0D1117" alt="location" />
-<img src="https://img.shields.io/badge/Open%20to-Collaboration-238636?style=flat-square&labelColor=0D1117" alt="open to work" />
+<img src="https://img.shields.io/badge/Open%20to-Collaboration-238636?style=flat-square&labelColor=0D1117" alt="open to collaboration" />
 
 </div>
 
@@ -42,32 +39,47 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;About Me
 
-```csharp
-public class Batsuren : SoftwareEngineer
-{
-    public string Location    => "Ulaanbaatar, Mongolia 🇲🇳";
-    public string Role        => "Full-Stack Engineer";
+> I design and ship software that runs a business — from the mobile client, through the API layer,
+> down to the database schema and the deployment pipeline. Most of my work lives in private client
+> repositories, so the public activity below reflects only a slice of what I actually build.
 
-    public string[] Domains   => new[]
-    {
-        "Enterprise ERP & business automation",
-        "Financial systems and complex workflows",
-        "Cross-platform mobile applications",
-        "LLM-powered products & AI agents"
-    };
+<table>
+<tr>
+<td width="55%" valign="top">
 
-    public string[] Learning  => new[] { "Cloud", "DevOps", "System Architecture" };
+**What I focus on**
 
-    public string Philosophy  => "Ship it, measure it, refactor it.";
-}
-```
+`Enterprise ERP & business process automation`
+`Financial platforms with complex workflows`
+`Cross-platform mobile applications`
+`AI-powered tools & LLM integrations`
 
-Би бизнесийн бодит асуудлыг шийддэг систем бүтээхэд төвлөрдөг — mobile client-ээс backend, database загвар, deployment хүртэлх бүх давхаргад ажилладаг. Ажлын ихэнх хэсэг нь захиалагчийн private repository дотор байдаг тул энд харагдах нийтийн үйл ажиллагаа бодит ачааллыг бүрэн тусгадаггүй.
+**What I'm sharpening right now**
 
-**Юунд сайн вэ:**
-- Олон роль, зөвшөөрлийн түвшинтэй, өгөгдлийн бүрэн бүтэн байдал чухал enterprise систем
-- Хуучин legacy код болон гуравдагч талын API-тай integration хийх
-- Санаанаас production хүртэлх бүтэн зам — architecture, хэрэгжүүлэлт, deploy, дэмжлэг
+`Cloud infrastructure` `DevOps & CI/CD`
+`Distributed system design` `AI engineering`
+
+</td>
+<td width="45%" valign="top">
+
+| | |
+|---|---|
+| 📍 | Ulaanbaatar, Mongolia |
+| 💼 | Full-Stack Engineer |
+| 🧰 | Flutter · .NET · Django · Odoo |
+| 🗄️ | PostgreSQL · SQL Server · Redis |
+| 🌐 | English · Mongolian |
+| ⚡ | Boring tech, shipped on time |
+
+</td>
+</tr>
+</table>
+
+**Where I add the most value**
+
+- Enterprise systems with many roles, permission layers, and strict data-integrity requirements
+- Integrating with legacy codebases and third-party APIs that were never designed to be integrated with
+- Owning the full path from idea to production: architecture, implementation, deployment, and support
 
 <!-- ══════════════════════════════════════════════════════════════
      TECH STACK
@@ -92,11 +104,11 @@ public class Batsuren : SoftwareEngineer
 </div>
 
 <details>
-<summary><b>📦 Дэлгэрэнгүй жагсаалт (дарж нээнэ үү)</b></summary>
+<summary><b>📦 Full breakdown (click to expand)</b></summary>
 
 <br/>
 
-| Ангилал | Технологиуд |
+| Category | Technologies |
 |---|---|
 | **Languages** | C#, Dart, Python, TypeScript, JavaScript, SQL |
 | **Mobile** | Flutter, Riverpod, Bloc, GoRouter, Firebase |
@@ -105,7 +117,7 @@ public class Batsuren : SoftwareEngineer
 | **ERP** | Odoo (custom modules, OWL, QWeb, XML-RPC) |
 | **Database** | PostgreSQL, SQL Server, MySQL, Redis |
 | **DevOps** | Docker, Docker Compose, GitHub Actions, Nginx, Linux (Ubuntu) |
-| **AI / LLM** | OpenAI API, Anthropic API, LangChain, vector database, RAG |
+| **AI / LLM** | OpenAI API, Anthropic API, LangChain, vector databases, RAG |
 | **Tools** | Git, Postman, Figma, VS Code, Rider |
 
 </details>
@@ -121,19 +133,19 @@ public class Batsuren : SoftwareEngineer
 <td width="33%" valign="top">
 
 ### 🧱 Architecture first
-Код бичихээс өмнө өгөгдлийн загвар, хил хязгаарыг тодорхойлно. Дараа нь өөрчлөх зардал хамаагүй хямд болдог.
+Data model and boundaries get decided before the first line of code. Changing them later is the expensive part.
 
 </td>
 <td width="33%" valign="top">
 
 ### 🔁 Ship small, ship often
-Том release-ийг хэсэгчлэн задалж, богино циклээр гаргана. Feedback хурдан ирэх тусам алдаа хямд.
+Large releases get sliced into short cycles. The faster feedback arrives, the cheaper mistakes are.
 
 </td>
 <td width="33%" valign="top">
 
 ### 📉 Boring tech wins
-Шинэ технологи гоё, харин production-д тогтвортой, баримтжуулалт сайтай хэрэгсэл л ялдаг.
+New frameworks are fun. In production, the stack with stable releases and real documentation wins.
 
 </td>
 </tr>
@@ -141,19 +153,19 @@ public class Batsuren : SoftwareEngineer
 <td width="33%" valign="top">
 
 ### 🧪 Test where it hurts
-100% coverage биш — мөнгө, зөвшөөрөл, өгөгдлийн бүрэн бүтэн байдалд хамаатай logic-ийг л чанга хамгаална.
+Not 100% coverage — heavy guarantees around money, permissions, and data integrity, light everywhere else.
 
 </td>
 <td width="33%" valign="top">
 
 ### 📝 Docs are code
-README, ADR, API баримт байхгүй бол систем зөвхөн бичсэн хүнд л ажилладаг. Тэр нь эрсдэл.
+Without a README, ADRs, and API docs, a system only works for the person who wrote it. That is a liability.
 
 </td>
 <td width="33%" valign="top">
 
-### 👀 Observability
-Log, metric, alert байхгүй систем бол харанхуйд ажиллаж байгаатай адил. Эхнээс нь суулгана.
+### 👀 Observability by default
+Logs, metrics, and alerts go in from day one. A system you can't see into is a system you can't operate.
 
 </td>
 </tr>
@@ -167,21 +179,26 @@ Log, metric, alert байхгүй систем бол харанхуйд ажи�
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Batsuren02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" />
-<img width="49%" src="https://streak-stats.demolab.com?user=Batsuren02&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Batsuren02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=86400&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" alt="GitHub stats" />
+<img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=Batsuren02&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Streak stats" />
 
 <br/><br/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Batsuren02&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
-<img width="56%" src="https://github-readme-activity-graph.vercel.app/graph?username=Batsuren02&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=C9D1D9&area=true&hide_border=true&radius=8" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Batsuren02&theme=github_dark" alt="Repos per language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Batsuren02&theme=github_dark" alt="Most commit language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Batsuren02&theme=github_dark&utcOffset=8" alt="Productive time" />
 
 <br/><br/>
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Batsuren02&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Batsuren02&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=C9D1D9&area=true&hide_border=true&radius=8" alt="Activity graph" />
+
+<br/><br/>
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Batsuren02&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 <br/>
 
-<sub>ℹ️ Ажлын ихэнх repository private тул эдгээр тоо нийт хувь нэмрийн зөвхөн нэг хэсгийг харуулж байна.</sub>
+<sub>ℹ️ Most of my production work sits in private repositories — these numbers show only part of the picture.</sub>
 
 </div>
 
@@ -223,18 +240,18 @@ graph LR
 ```
 
 <details>
-<summary><b>🎯 2026 зорилтууд</b></summary>
+<summary><b>🎯 2026 goals</b></summary>
 
 <br/>
 
-| Зорилт | Чиглэл | Төлөв |
+| Goal | Track | Status |
 |---|---|:---:|
-| Cloud certification (AWS / Azure) | Infrastructure | 🟡 явцад |
-| Kubernetes дээр production workload deploy | DevOps | 🟡 явцад |
-| CI/CD pipeline-ийг бүрэн автоматжуулах | DevOps | 🟢 хийгдсэн |
-| AI agent-д суурилсан product launch | AI | 🔴 эхлээгүй |
-| System design сэдвээр техникийн блог | Writing | 🔴 эхлээгүй |
-| Open source-д тогтмол contribution | Community | 🟡 явцад |
+| Cloud certification (AWS / Azure) | Infrastructure | 🟡 In progress |
+| Run a production workload on Kubernetes | DevOps | 🟡 In progress |
+| Fully automated CI/CD pipeline | DevOps | 🟢 Done |
+| Launch an AI agent-based product | AI | 🔴 Not started |
+| Write technical posts on system design | Writing | 🔴 Not started |
+| Consistent open source contributions | Community | 🟡 In progress |
 
 </details>
 
@@ -244,14 +261,17 @@ graph LR
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" alt="Dev quote" />
 
 <br/><br/>
 
 ### 💬 Let's build something
 
-Шинэ төсөл, хамтын ажиллагаа, эсвэл зүгээр л технологийн талаар ярилцах уу — нээлттэй байна.
+Open to new projects, collaborations, or just a good conversation about engineering.
 
+<a href="mailto:batsurenbataa665@gmail.com">
+  <img src="https://img.shields.io/badge/Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 <a href="https://batsuren-dev.netlify.app">
   <img src="https://img.shields.io/badge/Visit%20my%20Portfolio-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
@@ -260,6 +280,6 @@ graph LR
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=140&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&fontAlignY=70&animation=twinkling" />
 
-<sub>⭐️ Хэрэв ямар нэг repo тань таалагдвал star дарж дэмжээрэй</sub>
+<sub>⭐️ If any of my repos help you, a star goes a long way</sub>
 
 </div>
