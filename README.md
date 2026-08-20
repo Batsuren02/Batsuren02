@@ -1,115 +1,123 @@
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 01 — HERO
-══════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  H E R O
+═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=190&section=header&text=&fontSize=0&animation=fadeIn" />
-
-</div>
-
-```
-██████╗  █████╗ ████████╗███████╗██╗   ██╗██████╗ ███████╗███╗   ██╗
-██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║   ██║██╔══██╗██╔════╝████╗  ██║
-██████╔╝███████║   ██║   ███████╗██║   ██║██████╔╝█████╗  ██╔██╗ ██║
-██╔══██╗██╔══██║   ██║   ╚════██║██║   ██║██╔══██╗██╔══╝  ██║╚██╗██║
-██████╔╝██║  ██║   ██║   ███████║╚██████╔╝██║  ██║███████╗██║ ╚████║
-╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝
-
-   F U L L - S T A C K   E N G I N E E R  ·  U L A A N B A A T A R
-```
-
-<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,40:1F6FEB,100:58A6FF&height=260&section=header&text=BATSUREN&fontSize=62&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Engineer%20%C2%B7%20Ulaanbaatar%2C%20Mongolia&descAlignY=55&descSize=17&animation=fadeIn&stroke=58A6FF&strokeWidth=1" />
 
 <a href="https://batsuren-dev.netlify.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=58A6FF&center=true&vCenter=true&width=640&lines=I+build+ERP+and+financial+systems+that+run+businesses.;Flutter+in+front%2C+.NET+and+Django+behind+it.;Shipped+to+production+%E2%80%94+not+to+a+portfolio." alt="" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=58A6FF&center=true&vCenter=true&width=660&height=45&lines=I+build+ERP+and+financial+systems+that+run+businesses.;Flutter+in+front%2C+.NET+and+Django+behind+it.;Shipped+to+production+%E2%80%94+not+to+a+portfolio." alt="" />
 </a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/-ERP%20SYSTEMS-0D1117?style=flat-square&labelColor=161B22&color=1F6FEB" />
+<img src="https://img.shields.io/badge/-FINTECH-0D1117?style=flat-square&labelColor=161B22&color=1F6FEB" />
+<img src="https://img.shields.io/badge/-MOBILE-0D1117?style=flat-square&labelColor=161B22&color=1F6FEB" />
+<img src="https://img.shields.io/badge/-AI%20TOOLING-0D1117?style=flat-square&labelColor=161B22&color=1F6FEB" />
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Batsuren02&label=views&color=1F6FEB&style=flat-square&labelColor=161B22" alt="views" />
+<img src="https://img.shields.io/github/followers/Batsuren02?label=followers&style=flat-square&color=1F6FEB&labelColor=161B22" alt="followers" />
+<img src="https://img.shields.io/badge/UTC%2B8-Ulaanbaatar-1F6FEB?style=flat-square&labelColor=161B22" alt="timezone" />
+<img src="https://img.shields.io/badge/status-open%20to%20work-238636?style=flat-square&labelColor=161B22" alt="status" />
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:58A6FF,100:0D1117&height=2&section=header" />
 
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 02 — SYSTEM SCAN
-══════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  W H O A M I
+═══════════════════════════════════════════════════════════════════ -->
 
-```yaml
-╭─ PROFILE ──────────────────────────────────────────────────────────╮
-│                                                                    │
-│   handle      : @Batsuren02                                        │
-│   role        : Full-Stack Engineer                                │
-│   location    : Ulaanbaatar, Mongolia (UTC+8)                      │
-│   domain      : ERP · financial platforms · mobile                 │
-│   languages   : Mongolian (native) · English (professional)        │
-│   status      : open to enterprise & Flutter work                  │
-│                                                                    │
-╰────────────────────────────────────────────────────────────────────╯
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20WHOAMI&fontSize=21&fontColor=ffffff&fontAlign=9&fontAlignY=40&desc=who%20is%20behind%20the%20commits&descAlign=9&descAlignY=72&descSize=12" />
+
+```console
+batsuren@ulaanbaatar:~$ whoami --full
+
+  ╭──────────────────────────────────────────────────────────────╮
+  │  handle     @Batsuren02                                      │
+  │  role       Full-Stack Engineer                              │
+  │  domain     ERP · financial platforms · mobile               │
+  │  stack      Flutter · .NET · Django · PostgreSQL             │
+  │  languages  Mongolian (native) · English (professional)      │
+  │  timezone   UTC+8                                            │
+  ╰──────────────────────────────────────────────────────────────╯
 ```
 
 I build **ERP and financial platforms** for companies in Mongolia — systems with many user roles,
 strict permission rules, and data that has to be correct the first time. From the mobile client down
 to the database schema and the deployment pipeline, I own the whole path.
 
-> Most of this work lives in private client repositories. The public activity below is only a slice of it.
+> **Note** — most of this work lives in private client repositories.
+> The public activity below is only a slice of it.
 
----
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  C U R R E N T L Y
+═══════════════════════════════════════════════════════════════════ -->
 
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 03 — CURRENTLY
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-CURRENTLY-58A6FF?style=for-the-badge&labelColor=0D1117" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20CURRENTLY&fontSize=21&fontColor=ffffff&fontAlign=11&fontAlignY=40&desc=what%20is%20actually%20on%20my%20screen&descAlign=11&descAlignY=72&descSize=12" />
 
 ```console
-$ batsuren --status --verbose
+batsuren@ulaanbaatar:~$ status --verbose
 
-  [ building  ]  Loan management platform
-                 └─ repayment engine · role-based access · audit trail
+  ▸ BUILDING     Loan management platform
+                 repayment engine · role-based access · audit trail
 
-  [ shipping  ]  Flutter apps in production on Android and iOS
+  ▸ SHIPPING     Flutter apps live on Android and iOS
 
-  [ extending ]  Custom Odoo modules — accounting, inventory, sales
+  ▸ EXTENDING    Custom Odoo modules
+                 accounting · inventory · sales automation
 
-  [ learning  ]  Kubernetes and IaC
-                 └─ first production cluster targeted Q4 2026
+  ▸ LEARNING     Kubernetes and Infrastructure as Code
+                 first production cluster targeted Q4 2026
 
-  [ exploring ]  RAG pipelines and tool-calling agents
+  ▸ EXPLORING    RAG pipelines and tool-calling agents
 
-  last reviewed: 2026-08
+  ────────────────────────────────────────────────────────
+  last reviewed  2026-08
 ```
 
----
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  S T A C K
+═══════════════════════════════════════════════════════════════════ -->
 
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 04 — STACK
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-STACK-58A6FF?style=for-the-badge&labelColor=0D1117" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20STACK&fontSize=21&fontColor=ffffff&fontAlign=8&fontAlignY=40&desc=ordered%20by%20depth%2C%20not%20by%20alphabet&descAlign=8&descAlignY=72&descSize=12" />
 
 <div align="center">
+
 <br/>
 
 <img src="https://skillicons.dev/icons?i=flutter,dart,cs,dotnet,python,django,postgres,docker&theme=dark" />
 
-<sub><b>DAILY DRIVERS</b> — what I write most weeks</sub>
+`▰▰▰▰▰▰▰▰▰▰` &nbsp;**DAILY DRIVERS**
 
-<br/><br/>
+<sub>what I write most weeks</sub>
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,redis,nginx,linux,githubactions&theme=dark" />
 
-<sub><b>REGULAR USE</b> — comfortable, shipped with</sub>
+`▰▰▰▰▰▰▰▱▱▱` &nbsp;**REGULAR USE**
 
-<br/><br/>
+<sub>comfortable, shipped real work with</sub>
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=kotlin,swift,fastapi,nodejs,mysql,git,figma&theme=dark" />
 
-<sub><b>WORKING KNOWLEDGE</b> — can be productive, still deepening</sub>
+`▰▰▰▰▱▱▱▱▱▱` &nbsp;**WORKING KNOWLEDGE**
+
+<sub>productive, still deepening</sub>
 
 <br/>
+
 </div>
 
 <details>
-<summary>&nbsp;<b>Full breakdown</b></summary>
+<summary>&nbsp;<b>▸ Full breakdown</b></summary>
 
 <br/>
 
@@ -126,33 +134,31 @@ $ batsuren --status --verbose
 
 </details>
 
----
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  P R I N C I P L E S
+═══════════════════════════════════════════════════════════════════ -->
 
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 05 — PRINCIPLES
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-HOW%20I%20WORK-58A6FF?style=for-the-badge&labelColor=0D1117" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20PRINCIPLES&fontSize=21&fontColor=ffffff&fontAlign=11&fontAlignY=40&desc=how%20I%20make%20engineering%20decisions&descAlign=11&descAlignY=72&descSize=12" />
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-`01` &nbsp;**ARCHITECTURE FIRST**
+<samp>**01 · ARCHITECTURE FIRST**</samp>
 
 The data model and its boundaries get settled before the first line of code. Changing them later is the expensive part.
 
 </td>
 <td width="33%" valign="top">
 
-`02` &nbsp;**BORING TECH WINS**
+<samp>**02 · BORING TECH WINS**</samp>
 
 New frameworks are fun. In production, the stack with stable releases and real documentation is the one that survives.
 
 </td>
 <td width="33%" valign="top">
 
-`03` &nbsp;**TEST WHERE IT HURTS**
+<samp>**03 · TEST WHERE IT HURTS**</samp>
 
 Not 100% coverage. Heavy guarantees around money, permissions, and data integrity — light everywhere else.
 
@@ -161,21 +167,21 @@ Not 100% coverage. Heavy guarantees around money, permissions, and data integrit
 <tr>
 <td valign="top">
 
-`04` &nbsp;**SHIP SMALL, SHIP OFTEN**
+<samp>**04 · SHIP SMALL, SHIP OFTEN**</samp>
 
 Large releases get sliced into short cycles. The faster feedback arrives, the cheaper the mistakes are.
 
 </td>
 <td valign="top">
 
-`05` &nbsp;**DOCS ARE CODE**
+<samp>**05 · DOCS ARE CODE**</samp>
 
 Without a README, ADRs, and API docs, a system only works for whoever wrote it. That is a liability.
 
 </td>
 <td valign="top">
 
-`06` &nbsp;**OBSERVABILITY BY DEFAULT**
+<samp>**06 · OBSERVABILITY BY DEFAULT**</samp>
 
 Logs, metrics, and alerts go in on day one. A system you cannot see into is a system you cannot operate.
 
@@ -183,15 +189,14 @@ Logs, metrics, and alerts go in on day one. A system you cannot see into is a sy
 </tr>
 </table>
 
----
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  A C T I V I T Y
+═══════════════════════════════════════════════════════════════════ -->
 
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 06 — ACTIVITY
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-ACTIVITY-58A6FF?style=for-the-badge&labelColor=0D1117" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20ACTIVITY&fontSize=21&fontColor=ffffff&fontAlign=10&fontAlignY=40&desc=public%20signal%20only%20%E2%80%94%20most%20work%20is%20private&descAlign=10&descAlignY=72&descSize=12" />
 
 <div align="center">
+
 <br/>
 
 <img width="46%" src="https://github-readme-stats.vercel.app/api?username=Batsuren02&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=86400&hide=issues&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&icon_color=1F6FEB&ring_color=58A6FF" alt="GitHub stats" />
@@ -205,69 +210,28 @@ Logs, metrics, and alerts go in on day one. A system you cannot see into is a sy
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Batsuren02/Batsuren02/output/github-snake.svg" />
 </picture>
 
-</div>
-
----
-
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 07 — TRAJECTORY
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-TRAJECTORY-58A6FF?style=for-the-badge&labelColor=0D1117" />
-
-```mermaid
-graph LR
-    A[Full-Stack Foundation] --> B[Cloud & DevOps]
-    A --> C[System Architecture]
-    B --> D[Kubernetes / IaC]
-    C --> E[Distributed Systems]
-    D --> F[AI Engineering]
-    E --> F
-    F --> G[Production LLM Products]
-
-    style A fill:#1F6FEB,stroke:#58A6FF,color:#fff
-    style F fill:#1F6FEB,stroke:#58A6FF,color:#fff
-    style G fill:#238636,stroke:#3FB950,color:#fff
-```
-
-<details>
-<summary>&nbsp;<b>Milestones</b></summary>
-
 <br/>
 
-| Milestone | Status |
-|---|---|
-| Automated CI/CD across all active projects | ✅ &nbsp;Done — Mar 2026 |
-| First production deployment on Kubernetes | ◐ &nbsp;Targeting Q4 2026 |
-| AWS or Azure cloud certification | ◐ &nbsp;In progress |
-| Ship an LLM-powered product with real users | ○ &nbsp;Planned — 2027 |
-| Write publicly about system design | ○ &nbsp;Planned |
+</div>
 
-</details>
+<!-- ═══════════════════════════════════════════════════════════════════
+     ░░  C O N T A C T
+═══════════════════════════════════════════════════════════════════ -->
 
----
-
-<!-- ══════════════════════════════════════════════════════════════
-     SECTION 08 — CONTACT
-══════════════════════════════════════════════════════════════ -->
-
-<img src="https://img.shields.io/badge/%2F%2F-CONTACT-58A6FF?style=for-the-badge&labelColor=0D1117" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:0D1117&height=62&section=header&text=%2F%2F%20%20CONTACT&fontSize=21&fontColor=ffffff&fontAlign=10&fontAlignY=40&desc=one%20inbox%2C%20checked%20daily&descAlign=10&descAlignY=72&descSize=12" />
 
 Open to enterprise systems work, ERP builds, and Flutter projects.
-The fastest way to reach me is email.
 
 <a href="mailto:batsurenbataa665@gmail.com">
-  <img src="https://img.shields.io/badge/batsurenbataa665@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/batsurenbataa665@gmail.com-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" />
 </a>
 &nbsp;
 <a href="https://batsuren-dev.netlify.app">
-  <img src="https://img.shields.io/badge/batsuren--dev.netlify.app-0D1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/batsuren--dev.netlify.app-161B22?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=120&section=footer&text=&fontSize=0&animation=twinkling" />
-
-<img src="https://komarev.com/ghpvc/?username=Batsuren02&label=views&color=1F6FEB&style=flat-square&labelColor=0D1117" alt="views" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=130&section=footer&text=&fontSize=0&animation=twinkling" />
 
 </div>
