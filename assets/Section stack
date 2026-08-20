@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="76" viewBox="0 0 880 76" fill="none" role="img" aria-label="STACK">
+  <defs>
+    <linearGradient id="bgStack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#12203A"/>
+      <stop offset="45%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="ruleStack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="55%" stop-color="#1F6FEB" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="txtStack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#7FBBFF"/>
+    </linearGradient>
+    <linearGradient id="swStack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowStack" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clipStack"><rect x="0" y="0" width="880" height="76" rx="12"/></clipPath>
+    <style>
+      .mStack { font-family: "SFMono-Regular","JetBrains Mono",Consolas,"Liberation Mono",monospace; }
+      @keyframes sweepStack { 0% { transform: translateX(-260px); } 100% { transform: translateX(880px); } }
+      @keyframes blinkStack { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      @keyframes floatStack { 0%,100% { transform: translateX(0); } 50% { transform: translateX(26px); } }
+      .sweepStack { animation: sweepStack 6s ease-in-out infinite; }
+      .cursorStack { animation: blinkStack 1.1s steps(1) infinite; }
+      .orbStack { animation: floatStack 12s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="880" height="76" rx="12" fill="url(#bgStack)"/>
+  <g clip-path="url(#clipStack)">
+    <ellipse class="orbStack" cx="70" cy="38" rx="200" ry="90" fill="url(#glowStack)"/>
+    <rect class="sweepStack" x="0" y="0" width="260" height="1.5" fill="url(#swStack)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="75" rx="12" fill="none" stroke="#1F2A3A"/>
+
+  <rect x="26" y="22" width="3" height="32" rx="1.5" fill="#58A6FF"/>
+
+  <text class="mStack" x="44" y="36" font-size="18" font-weight="700" letter-spacing="3.5" fill="url(#txtStack)">// STACK</text>
+  <rect class="cursorStack" x="162" y="24" width="9" height="15" fill="#58A6FF"/>
+
+  <text class="mStack" x="44" y="56" font-size="11.5" letter-spacing="1.2" fill="#6E7681">ordered by depth, not by alphabet</text>
+
+  <text class="mStack" x="854" y="45" font-size="11" letter-spacing="1" fill="#30363D" text-anchor="end">./stack.sh --all</text>
+  <path d="M44 64 H320" stroke="url(#ruleStack)" stroke-width="1.5"/>
+</svg>
