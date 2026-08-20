@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="290" viewBox="0 0 880 290" fill="none" role="img" aria-label="Batsuren — Full-Stack Engineer">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F141B"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111A26"/>
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.75"/>
+      <stop offset="45%" stop-color="#2B3A52" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8957E6" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#CFE3FF"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#8957E6"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8957E6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#8957E6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="878" height="288" rx="18"/>
+    </clipPath>
+
+    <style>
+      .mono { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+      @keyframes driftA { 0%,100% { transform: translate(0,0); } 50% { transform: translate(38px,-22px); } }
+      @keyframes driftB { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-30px,26px); } }
+      @keyframes spin   { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes pulse  { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes sweepX { 0% { transform: translateX(-320px); } 100% { transform: translateX(880px); } }
+      @keyframes riseIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+      .blobA  { animation: driftA 14s ease-in-out infinite; }
+      .blobB  { animation: driftB 17s ease-in-out infinite; }
+      .ringRot{ animation: spin 26s linear infinite; transform-origin: 762px 145px; }
+      .dot    { animation: pulse 2.4s ease-in-out infinite; }
+      .sweepL { animation: sweepX 7s ease-in-out infinite; }
+      .in1 { animation: riseIn .7s ease-out both; }
+      .in2 { animation: riseIn .7s ease-out .12s both; }
+      .in3 { animation: riseIn .7s ease-out .24s both; }
+      .in4 { animation: riseIn .7s ease-out .36s both; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="878" height="288" rx="18" fill="url(#cardBg)"/>
+
+  <g clip-path="url(#cardClip)">
+    <ellipse class="blobA" cx="180" cy="70"  rx="260" ry="170" fill="url(#glowBlue)"/>
+    <ellipse class="blobB" cx="720" cy="240" rx="240" ry="160" fill="url(#glowPurple)"/>
+
+    <g opacity="0.35">
+      <path d="M0 72 H880 M0 218 H880" stroke="#1F2A3A" stroke-width="1"/>
+    </g>
+
+    <rect class="sweepL" x="0" y="1" width="320" height="2" fill="url(#sweep)"/>
+  </g>
+
+  <rect x="1" y="1" width="878" height="288" rx="18" fill="none" stroke="url(#cardStroke)" stroke-width="1.5"/>
+
+  <!-- monogram -->
+  <g class="in1">
+    <circle cx="96" cy="118" r="42" fill="#0B0F15" stroke="#1F2A3A" stroke-width="1"/>
+    <circle cx="96" cy="118" r="42" fill="none" stroke="url(#ringGrad)" stroke-width="2"
+            stroke-dasharray="150 114" stroke-linecap="round" opacity="0.9"/>
+    <text class="sans" x="96" y="132" font-size="38" font-weight="700" fill="url(#nameGrad)" text-anchor="middle">B</text>
+  </g>
+
+  <!-- handle -->
+  <g class="in1">
+    <text class="mono" x="164" y="76" font-size="13" letter-spacing="4" fill="#58A6FF">@BATSUREN02</text>
+    <path d="M164 86 H430" stroke="#1F2A3A" stroke-width="1"/>
+  </g>
+
+  <!-- name -->
+  <text class="sans in2" x="162" y="140" font-size="54" font-weight="800" letter-spacing="-1" fill="url(#nameGrad)">Batsuren</text>
+
+  <!-- tagline -->
+  <text class="sans in3" x="164" y="171" font-size="16" fill="#8B949E">Full-Stack Engineer building ERP and financial systems.</text>
+
+  <!-- pills -->
+  <g class="in4">
+    <g>
+      <rect x="163" y="196" width="94" height="30" rx="15" fill="#0B1220" stroke="#26456F"/>
+      <text class="mono" x="210" y="215" font-size="12" fill="#C9D1D9" text-anchor="middle">Flutter</text>
+    </g>
+    <g>
+      <rect x="267" y="196" width="80" height="30" rx="15" fill="#0B1220" stroke="#26456F"/>
+      <text class="mono" x="307" y="215" font-size="12" fill="#C9D1D9" text-anchor="middle">.NET</text>
+    </g>
+    <g>
+      <rect x="357" y="196" width="90" height="30" rx="15" fill="#0B1220" stroke="#26456F"/>
+      <text class="mono" x="402" y="215" font-size="12" fill="#C9D1D9" text-anchor="middle">Django</text>
+    </g>
+    <g>
+      <rect x="457" y="196" width="76" height="30" rx="15" fill="#0B1220" stroke="#26456F"/>
+      <text class="mono" x="495" y="215" font-size="12" fill="#C9D1D9" text-anchor="middle">Odoo</text>
+    </g>
+    <g>
+      <rect x="543" y="196" width="112" height="30" rx="15" fill="#0B1220" stroke="#26456F"/>
+      <text class="mono" x="599" y="215" font-size="12" fill="#C9D1D9" text-anchor="middle">PostgreSQL</text>
+    </g>
+  </g>
+
+  <!-- right ring -->
+  <g class="in3">
+    <circle cx="762" cy="145" r="66" fill="none" stroke="#161D28" stroke-width="10"/>
+    <g class="ringRot">
+      <circle cx="762" cy="145" r="66" fill="none" stroke="url(#ringGrad)" stroke-width="10"
+              stroke-linecap="round" stroke-dasharray="230 185"/>
+    </g>
+    <circle class="dot" cx="828" cy="112" r="4" fill="#58A6FF"/>
+    <text class="sans" x="762" y="140" font-size="26" font-weight="800" fill="#58A6FF" text-anchor="middle">UB</text>
+    <text class="mono" x="762" y="162" font-size="10" letter-spacing="2.5" fill="#8B949E" text-anchor="middle">UTC+8</text>
+  </g>
+
+  <!-- status -->
+  <g class="in4">
+    <circle class="dot" cx="700" cy="243" r="4" fill="#3FB950"/>
+    <text class="mono" x="712" y="247" font-size="11" letter-spacing="1.5" fill="#8B949E">open to work</text>
+  </g>
+</svg>
